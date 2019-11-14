@@ -1,0 +1,48 @@
+{
+  "name": "array-nested-filter",
+  "version": "1.0.0",
+  "description": "Filter nested arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "babel-node index.js",
+    "build": "BABEL_ENV=production babel index.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheushf/array-nested-filter.git"
+  },
+  "files": [
+    "dist/index.js"
+  ],
+  "keywords": [
+    "filter-nested-arrays",
+    "filter",
+    "nested",
+    "filter",
+    "array",
+    "deep",
+    "filter"
+  ],
+  "author": "matheushf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheushf/array-nested-filter/issues"
+  },
+  "homepage": "https://github.com/matheushf/array-nested-filter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.5.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-minify": "^0.5.1",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
