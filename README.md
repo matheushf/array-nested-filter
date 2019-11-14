@@ -2,7 +2,7 @@
 
 Ever got into the point where you need to filter a nested array, so you gotta implement that whole recurrence function again?
 
-Yeah, I got tired of that, so I created this small module to do it when I need it.
+Yeah, I got tired of that, so I created this small module (<1kb) to do it when I need it.
 
 ## Usage and params
 
